@@ -1,0 +1,94 @@
+[
+  {
+    "companyName": "��رابران",
+    "phone": "88885555",
+    "email": "tarabar@gmail.com",
+    "address": "233 Bay State Rd Boston MA 02215",
+    "state": "��هران",
+    "city": "��هران",
+    "location": {
+      "type": "Point",
+      "coordinates": [53, 31]
+    },
+    "numOfBranches": 1,
+    "branches": [],
+    "averageRating": 1,
+    "images": [],
+    "ceoName": "ali",
+    "ceoPhone": "09123595539",
+    "nationalId": false,
+    "website": "https://tarabar.com",
+    "NumOfTrucks": 10,
+    "active": true,
+    "description": "ModernTech has one goal, and that is to make you a rockstar developer and/or designer with a six figure salary. We teach both development and UI/UX"
+  },
+  {
+    "companyName": "حامدبار",
+    "phone": "88885555",
+    "email": "hamedbar@gmail.com",
+    "address": "tehran",
+    "location": {
+      "type": "Point",
+      "coordinates": [53, 34]
+    },
+    "state": "��هران",
+    "city": "نس��م شهر",
+    "numOfBranches": 2,
+    "branches": ["tehran", "esfahan"],
+    "averageRating": 1,
+    "images": [],
+    "ceoName": "reza",
+    "ceoPhone": "09353200748",
+    "nationalId": false,
+    "website": "https://hamedbar.com",
+    "NumOfTrucks": 10,
+    "active": true,
+    "description": "ModernTech has one goal, and that is to make you a rockstar developer and/or designer with a six figure salary. We teach both development and UI/UX"
+  },
+  {
+    "companyName": "����کا",
+    "phone": "88885555",
+    "email": "tookabar@gmail.com",
+    "address": "tehran",
+    "location": {
+      "type": "Point",
+      "coordinates": [52, 34]
+    },
+    "state": "اص��هان",
+    "city": "����لادشهر",
+    "numOfBranches": 2,
+    "branches": ["tehran", "esfahan"],
+    "averageRating": 1,
+    "images": [],
+    "ceoName": "????? ?????",
+    "ceoPhone": "09123544644",
+    "nationalId": false,
+    "website": "https://tookabar.com",
+    "NumOfTrucks": 10,
+    "active": true,
+    "description": "ModernTech has one goal, and that is to make you a rockstar developer and/or designer with a six figure salary. We teach both development and UI/UX"
+  },
+  {
+    "companyName": "????? ??? ????",
+    "phone": "88885555",
+    "email": "barbaran@gmail.com",
+    "address": "fdvdfvb",
+    "location": {
+      "type": "Point",
+      "coordinates": [52, 33]
+    },
+    "state": "?????",
+    "city": "????? ???",
+    "numOfBranches": 2,
+    "branches": ["?????", "??????"],
+    "averageRating": 1,
+    "images": [],
+    "ceoName": "mohammad",
+    "ceoPhone": "09123200748",
+    "nationalId": false,
+    "website": "https://barbaran.com",
+    "NumOfTrucks": 10,
+    "active": true,
+    "description": "ModernTech has one goal, and that is to make you a rockstar developer and/or designer with a six figure salary. We teach both development and UI/UX"
+  }
+]

@@ -1,0 +1,126 @@
+
+.map { position: absolute; top: 0; bottom: 0; width: 100%; 
+
+    .mapboxgl-popup {
+        max-width: 200px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+}
+
+
+.card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+  }
+  
+ .label {
+    width: max-content;
+    color: tomato;
+    font-size: 15px;
+    letter-spacing: .5px;
+    border-bottom: 0.5px solid tomato;
+    margin: 3px 0;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: purple;
+  }
+  
+  .star {
+    color: rgb(228, 197, 26);
+  }
+  
+  .username {
+    font-size: 14px;
+  }
+  
+  .date {
+    font-size: 11px;
+    color: rgb(141, 141, 141);
+    letter-spacing: .3px;
+  }
+  
+  .addNewPinForm {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(88, 87, 87);
+  }
+  
+  .input {
+    border: none;
+    border-bottom: 1px solid #333;
+    color: #333;
+  
+
+}
+  .textarea {
+    border: none;
+    border-bottom: 1px solid #333;
+  }
+  
+  .submitButton {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+  }
+  
+  .buttons,
+  .logout {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .4s ease;
+  }
+  
+  .button:focus{
+    outline: none;
+  }
+  
+  .logout{
+    background-color: rgb(31, 29, 29)
+  }
+  
+  .login{
+    background-color: rgb(40, 90, 197);
+    margin-right: 10px;
+    border: 1px solid rgb(40, 90, 197);
+  }
+  
+  .register{
+    background-color: rgb(204, 71, 221);
+    border: 1px solid rgb(204, 71, 221);
+  }
+
+  .login:hover,
+  .register:hover {
+    background: rgba(204, 204, 204, 0.603);
+    color: #222;
+  }
+
+  .marker {
+    transition: all .4s ease !important;
+  }
+
+  .marker:hover {
+    transform: scale(1.3);
+    color: rgb(255, 51, 0) !important;
+  }

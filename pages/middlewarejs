@@ -1,0 +1,12 @@
+// middleware.js
+import { NextRequest } from 'next/server'
+
+export function middleware(req) {
+  console.log("middleware")
+  // if (req.nextUrl.pathname.startsWith('/api/v1')) {
+  //   req.nextUrl.pathname = req.nextUrl.pathname.replace(/^\/api\/v1/, '/api/v1')
+  //   req.nextUrl.hostname = 'localhost'
+  //   req.nextUrl.port = 5000
+  // }
+   return NextRequest
+}
